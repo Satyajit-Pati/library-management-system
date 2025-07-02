@@ -18,4 +18,4 @@ This is a simple Object-Oriented Library Management System built using pure Java
 - Track borrow records and book availability
 
 - # Class Diagram
-- ![Class Diagram](flow diagram..jpg)
+- ![Class Diagram](ClassDiagram.jpg)
