@@ -16,3 +16,6 @@ This is a simple Object-Oriented Library Management System built using pure Java
 - Add library patrons
 - Borrow and return books
 - Track borrow records and book availability
+
+- # Class Diagram
+- ![Class Diagram](flow diagram..jpg)
