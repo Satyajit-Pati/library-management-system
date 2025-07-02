@@ -1,6 +1,7 @@
-package org.example;
+package org.example.service;
 
-import java.util.List;
+import org.example.Inventory;
+import org.example.model.Book;
 
 public class InventoryManager {
     private Inventory inventory;

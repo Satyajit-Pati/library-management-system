@@ -1,4 +1,4 @@
-package org.example;
+package org.example.model;
 
 public class Book {
     private String title;
@@ -7,7 +7,7 @@ public class Book {
     private String isbn;
     private boolean isAvailable;
 
-    public Book(String title, String author, int yearPublished, String isbn, boolean isAvailable) {
+    public Book(String title, String author, int yearPublished, String isbn) {
         this.title = title;
         this.author = author;
         this.yearPublished = yearPublished;
@@ -53,5 +53,16 @@ public class Book {
 
     public void setAvailable(boolean available) {
         isAvailable = available;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", yearPublished=" + yearPublished +
+                ", isbn='" + isbn + '\'' +
+                ", isAvailable=" + isAvailable +
+                '}';
     }
 }

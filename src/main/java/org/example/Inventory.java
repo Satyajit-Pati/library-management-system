@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.model.Book;
+
 import java.util.*;
 
 public class Inventory {
